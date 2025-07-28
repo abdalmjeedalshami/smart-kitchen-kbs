@@ -9,12 +9,14 @@ engine.reset()
 user_ingredients = [
     "eggs",
     "tomatoes",
-    "onion",
     "bell pepper",
     "parsley",
     "coconut milk",
     "curry powder",
-    "mixed vegetables",
+    "flour",
+    "eggs",
+    "milk",
+    "baking powder",
 ]
 for ing in user_ingredients:
     engine.declare(Ingredient(name=ing))
@@ -28,3 +30,4 @@ for m in meals:
     engine.declare(Meal(**m))
 
 engine.run()
+engine.show_results()

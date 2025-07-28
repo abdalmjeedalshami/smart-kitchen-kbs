@@ -201,7 +201,7 @@ meals = [
     },
     {
         "name": "Pancakes",
-        "main_ingredients": ["flour", "eggs", "milk", "baking powder"],
+        "main_ingredients": ["flour", "eggs", "milk", "baking powder", "onion"],
         "optional_ingredients": ["sugar", "vanilla", "butter", "maple syrup"],
         "meal_time": "breakfast",
         "time_required": 15,
