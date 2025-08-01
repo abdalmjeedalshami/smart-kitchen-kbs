@@ -1,4 +1,3 @@
-# app/meals_db.py
 meals = [
     {
         "name": "Shakshuka",
