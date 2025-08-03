@@ -2,9 +2,9 @@
 meals = [
     {
         "name": "Shakshuka",
-        "main_ingredients": ["eggs", "tomatoes", "onion", "bell pepper"],
-        "optional_ingredients": ["feta cheese", "parsley", "cumin", "paprika"],
-        "meal_time": "breakfast",
+        "main_ingredients": {"eggs", "tomatoes", "onion", "bell pepper", "bell pepper"},
+        "optional_ingredients": {"feta cheese", "parsley", "cumin", "paprika"},
+        "meal_type": "breakfast",
         "time_required": 25,
         "servings": 2,
         "health_flags": {
@@ -29,9 +29,9 @@ meals = [
     },
     {
         "name": "Hummus Bowl",
-        "main_ingredients": ["chickpeas", "tahini", "lemon juice", "olive oil"],
-        "optional_ingredients": ["garlic", "cucumber", "tomatoes", "pita bread"],
-        "meal_time": "lunch",
+        "main_ingredients": {"chickpeas", "tahini", "lemon juice", "olive oil"},
+        "optional_ingredients": {"garlic", "cucumber", "tomatoes", "pita bread"},
+        "meal_type": "lunch",
         "time_required": 15,
         "servings": 2,
         "health_flags": {
@@ -55,9 +55,9 @@ meals = [
     },
     {
         "name": "Chicken Fried Rice",
-        "main_ingredients": ["rice", "chicken breast", "eggs", "soy sauce"],
-        "optional_ingredients": ["green onions", "garlic", "ginger", "sesame oil"],
-        "meal_time": "dinner",
+        "main_ingredients": {"rice", "chicken breast", "eggs", "soy sauce"},
+        "optional_ingredients": {"green onions", "garlic", "ginger", "sesame oil"},
+        "meal_type": "dinner",
         "time_required": 20,
         "servings": 3,
         "health_flags": {
@@ -84,9 +84,9 @@ meals = [
     },
     {
         "name": "Greek Salad",
-        "main_ingredients": ["tomatoes", "cucumber", "red onion", "feta cheese"],
-        "optional_ingredients": ["olives", "oregano", "olive oil", "red wine vinegar"],
-        "meal_time": "lunch",
+        "main_ingredients": {"tomatoes", "cucumber", "red onion", "feta cheese"},
+        "optional_ingredients": {"olives", "oregano", "olive oil", "red wine vinegar"},
+        "meal_type": "lunch",
         "time_required": 10,
         "servings": 2,
         "health_flags": {
@@ -112,9 +112,9 @@ meals = [
     },
     {
         "name": "Beef Stir Fry",
-        "main_ingredients": ["beef strips", "broccoli", "bell peppers", "garlic"],
-        "optional_ingredients": ["ginger", "soy sauce", "oyster sauce", "sesame oil"],
-        "meal_time": "dinner",
+        "main_ingredients": {"beef strips", "broccoli", "bell peppers", "garlic"},
+        "optional_ingredients": {"ginger", "soy sauce", "oyster sauce", "sesame oil"},
+        "meal_type": "dinner",
         "time_required": 15,
         "servings": 3,
         "health_flags": {
@@ -140,14 +140,14 @@ meals = [
     },
     {
         "name": "Vegetable Curry",
-        "main_ingredients": [
+        "main_ingredients": {
             "coconut milk",
             "curry powder",
             "onion",
             "mixed vegetables",
-        ],
-        "optional_ingredients": ["garlic", "ginger", "cilantro", "rice"],
-        "meal_time": "breakfast",
+        },
+        "optional_ingredients": {"garlic", "ginger", "cilantro", "rice"},
+        "meal_type": "breakfast",
         "time_required": 30,
         "servings": 4,
         "health_flags": {
@@ -173,9 +173,9 @@ meals = [
     },
     {
         "name": "Tuna Salad Wrap",
-        "main_ingredients": ["canned tuna", "tortilla", "lettuce", "mayonnaise"],
-        "optional_ingredients": ["celery", "red onion", "tomatoes", "avocado"],
-        "meal_time": "snack",
+        "main_ingredients": {"canned tuna", "tortilla", "lettuce", "mayonnaise"},
+        "optional_ingredients": {"celery", "red onion", "tomatoes", "avocado"},
+        "meal_type": "snack",
         "time_required": 10,
         "servings": 1,
         "health_flags": {
@@ -201,9 +201,9 @@ meals = [
     },
     {
         "name": "Pancakes",
-        "main_ingredients": ["flour", "eggs", "milk", "baking powder", "onion"],
-        "optional_ingredients": ["sugar", "vanilla", "butter", "maple syrup"],
-        "meal_time": "breakfast",
+        "main_ingredients": {"flour", "eggs", "milk", "baking powder", "onion"},
+        "optional_ingredients": {"sugar", "vanilla", "butter", "maple syrup"},
+        "meal_type": "breakfast",
         "time_required": 15,
         "servings": 3,
         "health_flags": {
